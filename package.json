@@ -13,6 +13,8 @@
   "author": "['Najam Khan', 'Ahmed El Gabri']",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.10.2"
+    "css-flip": "^0.5.0",
+    "express": "^4.10.2",
+    "harp": "^0.14.0"
   }
 }
