@@ -1,9 +1,9 @@
 .content
     h1 Felipe
 
-    form(action=".", method="POST")
+    form(action="/process/", method="POST", class="felipeMain")
         .row
-            textarea.input
-            textarea.output
+            textarea.input(name="text", id="input")
+            textarea.output(name="out", id="output")
         .row
             button(type="submit").btnSubmit Submit
