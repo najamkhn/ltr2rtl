@@ -11,8 +11,8 @@
     "url": "git@bitbucket.org:najamkhn/felipe.git"
   },
   "author": [
-    "Najam Khan",
-    "Ahmed El Gabri"
+    "Najam Khan <najamkhn@gmail.com>",
+    "Ahmed El Gabri <ahmed@gabri.me>"
   ],
   "license": "MIT",
   "dependencies": {
