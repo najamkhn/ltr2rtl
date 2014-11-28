@@ -10,7 +10,7 @@ indent_style = space
 indent_size = 4
 
 # Indentation override for coffeescript, ruby & erb files
-[*.{coffee,rb,erb,yaml,yml}]
+[*.{coffee,rb,erb,yaml,yml,sass}]
 indent_size = 2
 
 # Some Markdown flavours needs whitespace for formatting
