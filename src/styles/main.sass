@@ -1,25 +1,77 @@
+*,
+*:after,
+*:before
+  box-sizing: border-box
+
+
 html,
 body
   height: 100%
   font-size: 100%
 
 body
-  font-family: "Helvetica"
+  font-family: avenir, sans-serif
   text-align: center
-  background: #f4f4f7
-  color: #444
+  background: #fafafa
+  color: #5B656E
   margin: 0
+
+a
+  text-decoration: none
+  color: cornflowerblue
 
 h1
   font-size: 65px
-  line-height: 1.2em
-  border-bottom: #CCC solid 1px
-  padding: 20px 0
+  margin: 0
 
-h3
-  font-weight: 300
+small
+  font-size: 80%
+
+form
+  margin-bottom: 2em
 
 textarea
-  margin: 0 5%
-  width: 35%
-  min-height: 25em
+  width: 50%
+  min-height: 35em
+  padding: 1em
+  font-family: monaco, menlo, droid sans mono, consolas, monospace;
+
+button
+  border: none
+  padding: 1em
+  text-align: center
+  font-size: inherit
+  font-family: inherit
+  cursor: pointer
+  background-color: #5B656E
+  color: #fff
+  width: 14em
+  transition: transform .3s linear
+
+  &:hover
+    transform: rotateY( -180deg )
+
+.content
+  max-width: 80%
+  margin: 0 auto
+
+header,
+footer
+  padding: 1em
+
+.row
+  margin-bottom: 1em
+
+.error
+  border-color: red
+  color: red
+  background-color: lighten(red, 40%)
+
+p.error
+  padding: 1em
+
+.h-hide
+  display: none
+
+.h-show
+  display: block
