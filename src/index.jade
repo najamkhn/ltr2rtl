@@ -1,9 +1,16 @@
 .content
-    h1 Felipe
+    header
+        h1 LTR2RTL
+        p Convert your CSS to RTL with a click of a button!
 
-    form(action="/process/", method="POST", class="felipeMain")
+    form(action="/process/", method="POST")
+        p.h-hide
         .row
-            textarea.input(name="text", id="input")
-            textarea.output(name="out", id="output")
+            textarea(name="input", id="input", autofocus, placeholder="Paste your CSS here")
+            textarea(name="out", id="output")
         .row
-            button(type="submit").btnSubmit Submit
+            button(type="submit") Flip!
+    footer
+        small
+            :markdown
+                Made with <span style="color: red">❤</span><br>by [Najam Khan](https://twitter.com/njmkhn) & [Ahmed El Gabri](http://twitter.com/ahmedelgabri)

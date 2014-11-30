@@ -10,13 +10,14 @@ var connect     = require('connect'),
 
 app.use(serveStatic(__dirname + '/src'));
 app.use(harp.mount(__dirname + '/src'));
-app.use(bodyParser.urlencoded({ extended: true, limit: '5mb' }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '2mb' }));
 
 app.use('/process', function (req, res) {
-  var css = req.body.text,
+    var css = req.body.input,
       result = flipCSS(css);
-  res.statusCode = 200;
-  res.end(result);
+
+    res.statusCode = 200;
+    res.end(result);
 });
 
 app.listen(port);
