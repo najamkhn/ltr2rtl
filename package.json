@@ -1,14 +1,14 @@
 {
-  "name": "felipe",
+  "name": "ltr2rtl",
   "version": "0.1.0",
-  "description": "felipe",
+  "description": "ltr2rtl",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:najamkhn/felipe.git"
+    "url": "git@github.com:najamkhn/ltr2rtl.git"
   },
   "author": [
     "Najam Khan <najamkhn@gmail.com>",
